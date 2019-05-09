@@ -1,1 +1,44 @@
-##BS
+BS TEST 20190509
+===========
+#要求
+A:
+于main.cxx:
+修改 new player("YSH")
+为 new player("杨思唅")
+提交至远程仓库，推送至中心仓库
+
+B:
+于player.cxx:
+修改 void player::addItem(item *i)
+为 void player::addItem(shared_ptr<item> i)
+提交至远程仓库，推送至中心仓库
+
+
+C:
+于player.h
+修改 void addItem(item* i);
+为 void addItem(shared_ptr<item> i);
+提交至远程仓库，推送至中心仓库
+
+这时C B 去吃饭。
+请C B将工作提交至远程仓库，并推送至中心仓库。
+
+----------------------------------------
+
+A:
+拉取并合并分支C
+拉取并合并分支B
+提交至远程仓库，推送至中心仓库
+
+这时C 归来， A 有事出去。
+请A将工作提交至远程仓库，并推送至中心仓库。
+
+----------------------------------------
+
+C:
+于item.cxx
+修改 item::item(str name)
+为 item::item(string name)
+
+
+
