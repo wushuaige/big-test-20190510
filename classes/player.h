@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class player
+class playergit 
 {
 private:
 	int x,y,z;
