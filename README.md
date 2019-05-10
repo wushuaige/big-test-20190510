@@ -36,7 +36,7 @@ A:
 ----------------------------------------
 
 C:
-于 player.h
+于 item.cxx
 修改 #include <item.h>
 为 #include "item.h"
 提交至远程仓库C分支，推送至中心仓库C分支
@@ -47,7 +47,7 @@ C:
 ----------------------------------------
 
 A:
-于 player.h
+于 item.cxx
 拉取并合并分支C
 修改 cout<<"ITEM INFO:"<<en
 为 cout<<"ITEM INFO:"<<endl;
