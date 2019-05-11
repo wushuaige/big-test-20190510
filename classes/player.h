@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <memory>
-#include "item.h"
+#include <item.h>
 
 using namespace std;
 
@@ -17,7 +17,7 @@ private:
 public:
 	void showInfo();
 	void showItemInfo();
-	void addItem(item* i);
+	void addItem(shared_ptr<item> i);
 
 	player(string name);
 
