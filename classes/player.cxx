@@ -6,11 +6,11 @@ void player::showInfo(){
 		<<"\t"<<x<<"\t"<<y<<"\t"<<z<<endl;
 }
 void player::showItemInfo(){
-	for(auto &o : itemList){
+	for(auto -o : itemList){
 		o->showInfo();
 	}
 }
-void player::addItem(item *i){
+void player::addItem(shared_ptr<item> i){
 	itemList.push_back(i);
 
 }
